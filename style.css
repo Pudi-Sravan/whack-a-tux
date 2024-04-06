@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+}
+
+.highscore{
+    margin-top: 10px;
+}
+
+.gameboard{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 70vh;
+    width: 50vw;
+    background-image: url(frozen\ river.avif);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.igloo{
+    background-image: url(igloo2.png);
+    background-size: cover;
+    height: 18%;
+    width: 23%;
+    margin: 15px;
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
